@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Business Layer", "Business Layer", "{AED390F8-FC1E-49D6-8F84-72C4F0C3B849}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation Layer", "Presentation Layer", "{C170F21A-0BD6-44BE-9D65-CC8B4D11CF6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Layer", "Data Layer", "{32D7CA90-3187-407D-A11B-DCDDF5B55097}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewCloud.ApplicationServer.Dal", "Data Layer\NewCloud.ApplicationServer.Dal\NewCloud.ApplicationServer.Dal.csproj", "{DAB80EB3-9CB0-4E0C-8860-F85AF470D13B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewCloud.Desktop.Showcase", "Presentation Layer\NewCloud.Desktop.Showcase\NewCloud.Desktop.Showcase.csproj", "{3B4A68FE-6100-42A8-B1A4-61253F0513FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewCloud.ApplicationServer.Entities", "Business Layer\NewCloud.ApplicationServer.Entities\NewCloud.ApplicationServer.Entities.csproj", "{6F4A32D2-4E61-4E46-AEB3-61A4EFFCCE0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAB80EB3-9CB0-4E0C-8860-F85AF470D13B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAB80EB3-9CB0-4E0C-8860-F85AF470D13B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAB80EB3-9CB0-4E0C-8860-F85AF470D13B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAB80EB3-9CB0-4E0C-8860-F85AF470D13B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B4A68FE-6100-42A8-B1A4-61253F0513FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B4A68FE-6100-42A8-B1A4-61253F0513FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B4A68FE-6100-42A8-B1A4-61253F0513FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B4A68FE-6100-42A8-B1A4-61253F0513FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F4A32D2-4E61-4E46-AEB3-61A4EFFCCE0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F4A32D2-4E61-4E46-AEB3-61A4EFFCCE0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F4A32D2-4E61-4E46-AEB3-61A4EFFCCE0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F4A32D2-4E61-4E46-AEB3-61A4EFFCCE0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DAB80EB3-9CB0-4E0C-8860-F85AF470D13B} = {32D7CA90-3187-407D-A11B-DCDDF5B55097}
+		{3B4A68FE-6100-42A8-B1A4-61253F0513FC} = {C170F21A-0BD6-44BE-9D65-CC8B4D11CF6A}
+		{6F4A32D2-4E61-4E46-AEB3-61A4EFFCCE0E} = {AED390F8-FC1E-49D6-8F84-72C4F0C3B849}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://vbif3618.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Data\u0020Layer\\NewCloud.ApplicationServer.Dal\\NewCloud.ApplicationServer.Dal.csproj
+		SccProjectTopLevelParentUniqueName1 = NewCloud.sln
+		SccProjectName1 = Data\u0020Layer/NewCloud.ApplicationServer.Dal
+		SccLocalPath1 = Data\u0020Layer\\NewCloud.ApplicationServer.Dal
+		SccProjectUniqueName2 = Presentation\u0020Layer\\NewCloud.Desktop.Showcase\\NewCloud.Desktop.Showcase.csproj
+		SccProjectTopLevelParentUniqueName2 = NewCloud.sln
+		SccProjectName2 = Presentation\u0020Layer/NewCloud.Desktop.Showcase
+		SccLocalPath2 = Presentation\u0020Layer\\NewCloud.Desktop.Showcase
+		SccProjectUniqueName3 = Business\u0020Layer\\NewCloud.ApplicationServer.Entities\\NewCloud.ApplicationServer.Entities.csproj
+		SccProjectTopLevelParentUniqueName3 = NewCloud.sln
+		SccProjectName3 = Business\u0020Layer/NewCloud.ApplicationServer.Entities
+		SccLocalPath3 = Business\u0020Layer\\NewCloud.ApplicationServer.Entities
+	EndGlobalSection
+EndGlobal
